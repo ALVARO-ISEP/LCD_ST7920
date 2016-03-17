@@ -25,8 +25,20 @@ You can change the pins by changing the defines in the .h
 
 
 void lcd_clear_all(void);
+
+Clear the LCD display
+
+
 void lcd_draw(uint8_t *p);
+
+Draw an 128x64 B/W picture in the LCD
+
+Image can be created with GIMP
+<br>
+
 void lcd_send_str8(uint8_t linha,uint8_t coluna, char string[16]);
+
 void lcd_send_str(char *str);
+
 void lcd_set_cursor(int8_t line, int8_t col);
 
