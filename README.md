@@ -4,11 +4,11 @@ KeyWords: AVR,ST7920,LCD128x64
 
 Hello, I have searched for a avr-library for this LCD controller for a long time and have only find 3 types of libraries: 
 
--->A lot heavy but with a lot of functions and fonts
+*A lot heavy but with a lot of functions and fonts
 
--->Parallel but about 10 pins wasted
+*Parallel but about 10 pins wasted
 
--->too simple only been able to use lcd internal fonts that only allow 4 lines of text
+*too simple only been able to use lcd internal fonts that only allow 4 lines of text
 
 
 
